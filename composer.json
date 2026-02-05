@@ -11,7 +11,7 @@
 	"homepage": "https://github.com/juan88/reserved-subdomains",
 	"autoload": {
 		"psr-4": {
-			"Juan88\ReservedSubdomains\\" : "php/src/"
+			"Juan88\\ReservedSubdomains\\" : "php/src/"
 		}
 	},
 	"replace": {
