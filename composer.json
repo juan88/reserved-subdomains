@@ -1,21 +1,24 @@
 {
-	"name": "nkkollaw/reserved-subdomains",
-	"description": "Subdomain validator for multitenant apps",
-	"version": "0.3.1",
+	"name": "juan88/reserved-subdomains",
+	"description": "Subdomain validator for multitenant apps. Forked from nkkollaw/reserved-subdomains",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Niccolò Brogi",
-			"email": "me@nbrogi.com"
+			"name": "Juan",
+			"email": "juan@titanpush.com"
 		}
 	],
-	"homepage": "https://github.com/nkkollaw/reserved-subdomains",
+	"homepage": "https://github.com/juan88/reserved-subdomains",
 	"autoload": {
 		"psr-4": {
-			"" : "php/src/"
+			"Juan88\ReservedSubdomains\\" : "php/src/"
 		}
 	},
+	"replace": {
+		"nkkollaw/reserved-subdomains": "self.version"
+	},
 	"require": {
+		"php": ">=8.1",
 		"symfony/yaml": "^8.0"
 	}
 }
